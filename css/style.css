@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(252, 255, 95);
+    background-color:rgb(252, 203, 44);
 }
 
 
@@ -17,6 +17,7 @@ body{
     position: relative;
     top:5px;
     left:16px;
+    border-radius: 20px;
     
 }
 
