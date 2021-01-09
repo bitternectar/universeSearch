@@ -8,8 +8,7 @@ body{
     width: 460px;
     height: 250px;
    
-    margin:auto;
-    margin-top: 200px;
+    margin:25%;
     border-radius: 10px;
     box-shadow: 5px 10px rgb(10, 8, 1);
 }
@@ -22,17 +21,21 @@ body{
 }
 
 .formSignIn{
-    margin: 30px;
-    margin-left: 60px;
+    margin: 5%;
+    
 
 }
 .textField{
-    border-radius: 10%;
-    margin-top: 5px;
-    margin-left: 83px;
+    height: 25px;
+    
+    border-color:goldenrod;
+    margin:8px;
+    margin-top:-5px;
+    margin-left: 30%;
 }
 .textField::focus{
     border-color: goldenrod;
+    
 }
 .textField::selection{
     color: goldenrod;
@@ -43,7 +46,7 @@ body{
     margin-top: 9px;
     margin-left: 126px;
     border-radius: 10px;
-    background-color:rgb(238, 255, 2);
+    background-color:goldenrod;
     border-color: rgb(255, 255, 255);
     box-shadow:honeydew;
     
