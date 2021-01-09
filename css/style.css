@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(252, 203, 44);
+    background-color:rgb(14, 12, 6);
 }
 
 
@@ -11,7 +11,7 @@ body{
     margin:auto;
     margin-top: 200px;
     border-radius: 10px;
-    box-shadow: 5px 10px #ccc;
+    box-shadow: 5px 10px rgb(10, 8, 1);
 }
 #logo{
     position: relative;
@@ -26,3 +26,29 @@ body{
     margin-left: 60px;
 
 }
+.textField{
+    border-radius: 10%;
+    margin-top: 5px;
+    margin-left: 83px;
+}
+.textField::focus{
+    border-color: goldenrod;
+}
+.textField::selection{
+    color: goldenrod;
+}
+#signInButton{
+    width:100px;
+    height: 30px;
+    margin-top: 9px;
+    margin-left: 126px;
+    border-radius: 10px;
+    background-color:rgb(238, 255, 2);
+    border-color: rgb(255, 255, 255);
+    box-shadow:honeydew;
+    
+}
+#signInButton:hover{
+  border-color:rgb(119, 90, 16);
+}
+
