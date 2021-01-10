@@ -17,28 +17,12 @@ document.addEventListener('DOMContentLoaded', () =>{
 
     signInButton.addEventListener('click',(e) =>{
 
-        for(let i=0;i<userDB.userName.length;i++){
-            let item = userDB.userName[i];
-            if(userNameField.value==item){break;}
-            else{
-                e.preventDefault();
-                userNameField.value = '';
-                passwordField.value='';
-                userNameField.style.borderColor = 'red';
-                console.log('Введено неверное имя пользователя');
-             }
-        }
-
-        for(let i=0;i<userDB.password.length;i++){
-            let item = userDB.password[i];
-            if(passwordField.value==item){break;}
-            else{
-                e.preventDefault();
-                userNameField.value = '';
-                passwordField.value='';
-                passwordField.style.borderColor = 'red';
-                console.log('Введен неверный пароль');
-             }
+        if(userDB.userName.indexOf(userNameField.value)!=userDB.password.indexOf(passwordField.value)){
+            e.preventDefault();
+            userNameField.style.borderColor = 'red';
+            passwordField.style.borderColor = 'red';
+            userNameField.value='';
+            passwordField.value = '';
         }
             
         

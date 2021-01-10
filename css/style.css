@@ -1,4 +1,5 @@
 body{
+    margin: auto;
     background-color:rgb(14, 12, 6);
 }
 
@@ -7,8 +8,9 @@ body{
     background-color:rgb(255, 255, 255);
     width: 460px;
     height: 250px;
-   
-    margin:25%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
+    margin-top: 200px;
     border-radius: 10px;
     box-shadow: 5px 10px rgb(10, 8, 1);
 }
@@ -26,19 +28,24 @@ body{
 
 }
 .textField{
+    width: 200px;
     height: 25px;
-    
-    border-color:goldenrod;
     margin:8px;
     margin-top:-5px;
     margin-left: 30%;
+    border:none;
+    border-bottom:1px solid rgb(240, 164, 0);
+    transition: 0.3s;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
-.textField::focus{
-    border-color: goldenrod;
+.textField:focus{
+    outline-color: rgb(240, 164, 0);
     
 }
 .textField::selection{
-    color: goldenrod;
+    border:none;
+    border-bottom:2px solid rgb(240, 164, 0);
 }
 #signInButton{
     width:100px;
@@ -46,12 +53,13 @@ body{
     margin-top: 9px;
     margin-left: 126px;
     border-radius: 10px;
-    background-color:goldenrod;
-    border-color: rgb(255, 255, 255);
-    box-shadow:honeydew;
-    
+    background-color:rgb(240, 164, 0);
+    border:1px solid white;
+    color:white;
 }
 #signInButton:hover{
+    outline-color: teal;
+    
   border-color:rgb(119, 90, 16);
 }
 
