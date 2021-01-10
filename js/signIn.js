@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         userName:['ElenaI',
                 'AntonL',
                 'MikhailS'],
-        password:['Htrhen@132',
+        password:['qwer',
                     '12345','123']
     };
 
