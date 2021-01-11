@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/bitternectar/universeSearch/issues"
   },
-  "homepage": "https://github.com/bitternectar/universeSearch#readme"
+  "homepage": "https://github.com/bitternectar/universeSearch#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
