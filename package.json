@@ -1,0 +1,19 @@
+{
+  "name": "universe",
+  "version": "1.0.0",
+  "description": "universeSearch",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitternectar/universeSearch.git"
+  },
+  "author": "Smirnovskiy Mikhail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitternectar/universeSearch/issues"
+  },
+  "homepage": "https://github.com/bitternectar/universeSearch#readme"
+}
