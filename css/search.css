@@ -2,7 +2,7 @@ body{
     margin:0;
     background-color: rgb(37, 35, 35);
     font-family: Arial, Helvetica, sans-serif;
-    font-size:25px ;
+    font-size:15px ;
     
 }
 .navigation{
@@ -21,6 +21,8 @@ body{
     height: 80px;
     background-color: rgba(220,20,60,0.3);
     transition: all .3s ease;
+    border-bottom: 2px solid rgb(61, 4, 15);
+box-shadow: 0px 2px 10px rgb(44, 3, 12);
 }
 .addCard{
     width: 40px;
@@ -28,13 +30,40 @@ body{
     text-align: center;
     color:aliceblue;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 10px;
+}
+h2.addCard2{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    color:aliceblue;
+    margin: auto;
+    margin-left: 2px;
+    padding-top: 30px;
+    font-size: 15px;
+    transition: all .4s ease;
+    
+}
+h2.addCard2:hover{
+    font-size: 25px;
+}
+
+.des{
+    margin:0;
+    color:white;
+    text-align: center;
+    
 }
 .card:hover{
 width:120px;
 height: 120px;
 background-color: crimson;
 box-shadow: 2px 2px 10px crimson;
+font-size:28px;
+text-shadow: 1px 1px 5px white;
+border-bottom: none;
+
+
 }
 .divForm{
     display:inline-block;
@@ -50,6 +79,7 @@ box-shadow: 2px 2px 10px crimson;
     margin-left: 30px;
     margin-top: 30px;
     transition: all .5s ease;
+    font-size: 30px;
 }
 .poisk:hover{
     color: crimson;
@@ -66,6 +96,7 @@ box-shadow: 2px 2px 10px crimson;
     width:800px;
     margin-left:130px;
     margin-top: 30px;
+    
 }
 .searchField{
     width:700px;
@@ -75,7 +106,7 @@ box-shadow: 2px 2px 10px crimson;
     border:2px solid rgb(255, 255, 255);
     outline: crimson;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:15px ;
+    font-size:20px ;
 }
 .searchField.hover{
     box-shadow: 6px 7px crimson;
