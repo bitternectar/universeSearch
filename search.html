@@ -12,14 +12,19 @@
     
     <div class='divForm'>
         <nav class = 'navigation'>
-            <div class="card">
-                <h2 class='des'>профиль</h2>
+            <form class="formProfile" action=''>
+            <button class="card" id="profButton" >
+                <h2 class='addCard2'>профиль</h2>
                 
-            </div>
-            <div class="card">
+            </button>
+        </form>
+
+        <form action=''>
+            <button class="card" id="addC" >
                 <h2 class='addCard'>+</h2>
                 <p class='des'>добавить</p>
-            </div>
+            </button>
+        </form>
         </nav>
         <h3 class='poisk'>Поиск</h3>
         <form action="" class='formSearch'>
@@ -27,5 +32,6 @@
             <input type="text" class='searchField' placeholder="Введите название карточки...">
         </form>
     </div>
+    <script defer src='js/search.js'></script>
 </body>
 </html>
