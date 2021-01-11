@@ -56,10 +56,11 @@ body{
     background-color:rgb(240, 164, 0);
     border:1px solid white;
     color:white;
+    transition: all .3s ease;
 }
 #signInButton:hover{
     outline-color: teal;
     
-  border-color:rgb(119, 90, 16);
+  border-color:teal;
 }
 
