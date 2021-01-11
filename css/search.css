@@ -24,7 +24,7 @@ body{
     border-bottom: 2px solid rgb(61, 4, 15);
 box-shadow: 0px 2px 10px rgb(44, 3, 12);
 border-width: 0;
-text-shadow: 2px 2px crimson;
+
 }
 .card:focus{
     outline: none;
@@ -50,7 +50,7 @@ h2.addCard2{
     padding-top: 30px;
     font-size: 15px;
     transition: all .4s ease;
-    text-shadow: 2px 2px crimson;
+    
     
 }
 h2.addCard2:hover{
@@ -90,7 +90,7 @@ border-bottom: none;
     top:-63px;
     transition: all .5s ease;
     font-size: 26px;
-    text-shadow: 2px 2px crimson;
+    
 }
 .poisk:hover{
     font-size: 28px;
