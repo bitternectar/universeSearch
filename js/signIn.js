@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 
         if(userDB.userName.indexOf(userNameField.value)!=userDB.password.indexOf(passwordField.value)){
             e.preventDefault();
+            console.log('Error');
             userNameField.style.borderColor = 'red';
             passwordField.style.borderColor = 'red';
             userNameField.value='';
