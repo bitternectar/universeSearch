@@ -102,12 +102,22 @@ cursor: pointer;
 }
 
 .searchDiv{
-   
+    width: 82vw;
+   height:80px;
+   margin-left: 30px;
+   margin-top: 30px;
     display: flex;
     flex-direction: row;
+    
+    background-color: beige;
+    border-radius: 5px;
 }
 .poisk{
     height: 40px;
+    width: 220px;
+    background-color:rgb(37, 35, 35) ;
+    border-radius: 5px;
+    text-align: center;
     color: white;
     margin:0;
     margin-left: 20px;
@@ -123,7 +133,7 @@ cursor: pointer;
 .formSearch{
     
     text-align: center;
-    width:60vw;
+    width:50vw;
     height: 25px;
     margin-left:2%;
     margin-top: 30px;
@@ -138,6 +148,7 @@ cursor: pointer;
     outline: crimson;
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px ;
+    box-shadow: 1px 1px 5px black;
 }
 .searchField.hover{
     box-shadow: 6px 7px crimson;
@@ -146,9 +157,7 @@ cursor: pointer;
     outline: crimson;
     border-color: crimson;
     border:3px solid crimson;
-    width:70vw;
-    height: 29px;
-    font-size:25px ;
+    
     
 }
 .searchField::selection{
@@ -161,8 +170,7 @@ cursor: pointer;
     justify-content: center;
     margin-left: 30px;
     color:rgb(0, 0, 0);
-    
-    
+    transition: all .3s ease;
     width: 90%
     
 }
@@ -174,6 +182,7 @@ cursor: pointer;
     margin:5px;
 }
 .article:hover{
+    border: 1px solid crimson;
     color:crimson;
     cursor: pointer;
 }
